@@ -68,7 +68,7 @@ Ex: Compiling FastICA shared library for MS Windows 64-bit on Fedora 22 64-bit w
 
 * Copy **FastICA** shared library (.dll, .so, .dylib) to **vipy** folder. For example, in Linux 64-bit system, do as follows:
 
-      $ cp /path/to/fastica/FastICA64.so ./FastICA.so
+        $ cp /path/to/fastica/FastICA64.so ./FastICA.so
 
 * Start python/ipython
 ```python
