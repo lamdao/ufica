@@ -1,0 +1,1 @@
+This is a Matlab wrapper for FastICA shared library. Copy FastICA.{so,dll,dylib} to this folder before testing.
