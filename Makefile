@@ -7,12 +7,7 @@ ifeq "$(PLATFORM)" "mingw32"
 	DRES=res.o
 	DEXT=dll
 	ifeq "$(WRC)" ""
-		CPATH=$(shell dirname $(CXX))
-		ifeq "$(CPATH)" "."
-			WRC=windres
-		else
-			WRC=$(CPATH)/windres
-		endif
+		WRC=$(subst g++,windres,$(CXX))
 	endif
 else
 	SHRFLAGS+=-fPIC
