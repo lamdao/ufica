@@ -6,6 +6,11 @@ This Fiji/ImageJ plugin works a front-end (GUI) for **ufica** engine
 (FastICA*.{so,dll,dylib}). It is used to manipulate images/stacks before
 and after passing through FastICA engine for estimation and unmixing.
 
+<img src="http://lamdao.github.io/ufica/ufica.png" width="720px"/>
+
+*3-channel images before and after unmixing using uFica, estimated
+mixing matrix is showed in log window*
+
 ### Compile
 
 - Open this project in Eclipse
