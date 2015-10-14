@@ -1,0 +1,2 @@
+- Add deflate method
+- Add other contrast functions (tanh, gauss, skew)
