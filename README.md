@@ -9,6 +9,11 @@ developed as a demonstration for the paper ***"Use of independent component
 analysis to improve signal-to-noise ratio in multi-probe fluorescence
 microscopy"***.
 
+<img src="http://lamdao.github.io/ufica/ufica.png" width="720px"/>
+
+*3-channel images before and after unmixing using Fiji/uFica, estimated
+mixing matrix is showed in log window*
+
 ### Build
 
 #### 0. Requirements
